@@ -15,12 +15,21 @@
       "main": "main.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.json",
-      "prefix": "app",
+      "prefix": "ple",
       "mobile": false,
       "styles": [
+        "../bower_components/bootstrap/dist/css/bootstrap.css",
+        "../bower_components/font-awesome/css/font-awesome.min.css",      
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../bower_components/jquery/dist/jquery.min.js",
+        "../bower_components/jquery.easing/js/jquery.easing.min.js",
+        "../bower_components/classie/classie.js",
+        "../bower_components/scrollspy/build/jquery.scrollspy.js",        
+        "../bower_components/scrollspy/build/scrollspy.js",
+        "pureluck.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
