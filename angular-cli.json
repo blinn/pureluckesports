@@ -17,17 +17,16 @@
       "tsconfig": "tsconfig.json",
       "prefix": "ple",
       "mobile": false,
-      "styles": [
-        "../bower_components/bootstrap/dist/css/bootstrap.css",
-        "../bower_components/font-awesome/css/font-awesome.min.css",      
+     "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css",      
         "styles.css"
       ],
       "scripts": [
-        "../bower_components/jquery/dist/jquery.min.js",
-        "../bower_components/jquery.easing/js/jquery.easing.min.js",
-        "../bower_components/classie/classie.js",
-        "../bower_components/scrollspy/build/jquery.scrollspy.js",        
-        "../bower_components/scrollspy/build/scrollspy.js",
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/jquery.easing/jquery.easing.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",             
+        "classie.js",        
         "pureluck.js"
       ],
       "environments": {

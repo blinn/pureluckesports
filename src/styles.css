@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap Themes
  * To use this theme you must have a license purchased at WrapBootstrap (https://wrapbootstrap.com)
  */
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';      
+
 html,
 body {
   height: 100%;

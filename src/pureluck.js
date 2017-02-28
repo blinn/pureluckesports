@@ -19,6 +19,16 @@
     // }
 // });
 
+// @import '../node_modules/bootstrap/dist/css/bootstrap.css';
+// @import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+
+
+        // "../node_modules/jquery.easing/js/jquery.easing.min.js",
+        // "../node_modules/classie/classie.js",
+        // "../node_modules/scrollspy/build/jquery.scrollspy.js",        
+        // "../node_modules/scrollspy/build/scrollspy.js",
+
+
 (function($) {
     "use strict"; // Start of use strict
 
@@ -114,11 +124,6 @@
     // });
 
     // Scrollspy: Highlights the navigation menu items while scrolling.
-
-    $('body').scrollSpy({
-        target: '.navbar-fixed-top > li > a',
-        offset: 51
-    })
-
+    $('body').scrollspy({ target: '#navbar-container' });
 
 })(jQuery); // End of use strict
